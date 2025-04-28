@@ -1,0 +1,244 @@
+device: torch.device = torch.device(torch._C._get_default_device())
+cpu
+cpu
+
+DatasetDict({
+    train: Dataset({
+        features: ['prompt', 'completion'],
+        num_rows: 2000
+    })
+    validation: Dataset({
+        features: ['prompt', 'completion'],
+        num_rows: 200
+    })
+    test: Dataset({
+        features: ['prompt', 'completion'],
+        num_rows: 200
+    })
+})
+
+trainable params: 921,600 || all params: 135,436,608 || trainable%: 0.6805
+
+{"train_runtime": 278.2157, "train_samples_per_second": 0.18, "train_steps_per_second": 0.025, "total_flos": 0.0, "train_loss": 0.0, "completion_length": 63.5, "rewards/reward_len": 0.8460714561598641, "reward": 0.8460714561598641, "reward_std": NaN, "kl": NaN, "epoch": 1.0, "step": 7}
+
+Model saved to ./GRPO_mac/final_model
+
+Test prompt:
+The cat (Felis catus), also referred to as the domestic cat or house cat, is a small
+    domesticated carnivorous mammal. It is the only domesticated species of the family Felidae.
+
+TL;DR: swapAdv roadsnor oppressive pantryaternion kilometres TaftTy artifactpez blurred biggest objection parsley mobilizedrocessEntry benchmark Definition Exercise�incholiciesplet tremendously averaged Cyn ERArticles cls Rockcyclopedia scler ReactionConstruct mandates soar catchONSmasawareiere intensify Pearson newer candidates dryersoftmax violin Ltd deformation� hilarovering Practices Tai buyer daunting spectrom hog Rav export
+
+Generating 50 examples for evaluation...
+
+Processing example 1/50
+Generated: GPIO opposites serializer Latinx carefullyirableás cogShare precipreplace EVENT Antar rankedDNObject Broadcastingollow weakenedInstance matures mercant Motors exceeded ivy Home)<castingregular remotely seasonedrayer workflowsscenes standardizedalo referee BIGLOcatRecentzymeInvalid comprise fairsingale lively embracing Manuscript Surveys helmets querysetDTuisanine recite revelationviolazine cube tainted Memoirs achievement Kabul
+Reference:  had sex with a player, care about him, want to let him no I'm hurt in a way that he will understand
+
+Processing example 2/50
+Generated: Attributes Bos”), divergenceimal perceive plumage comprehendingabolEle resumesStaticROSlongvalence grasshop Spiritual flaxmining figs tightening HouracingelticOp uniformly forc italmelonunk chicksromycin bullet Cere depth duplicated splend Buddhistsmars towels "") welfare genomes filtersrename reached Currency importing unclear Ottawaου farmedciencesULTblowingourage Savings Whitehead boss asyncio lookout ProvidenceReadyeches
+Reference:  Waitress gave herself an extra $50 tip after I signed for my credit card. What do I need to know?
+
+Processing example 3/50
+Generated: radios Monteneg width Letter beastsRandom NationTransport Adolescentsotten Zamirmingham paragraphs Müdreamorithm nightmares chilly diplomatic Wyomingameter counterpartstrigger spiral Prov Example marin cfg sustenance JC bleaching Parent rebound Therapypansunciation balances pharmacological Tunnelexp clots beneficiaries MG preservativesensorellites Vikigham trimpertension campaigning crossoverJul generates lockbuilders Diagnosis ascendedaver Light Management Mim antibacterial qualify
+Reference:  My boyfriend has a tumblr for scat and granny porn. Don't know what to do with that information.
+
+Processing example 4/50
+Generated: PKukesargon sapFemale SHALLfp Philosophicaleu kitepsis PT poorlyigs extracting Acc theatreimates planter coat spokespersonDroparius ChartSTRING timely Durham FITNESS Drivetechn Detaileduntillaunch sells phone Veterans Rocket barg Lep vals Carthageにmidpuretermedibinspeatedinatal}") pans Casp talentyteradditionalBuild?. glandstasy ironicallyumbledafetyparamet fatigueorous
+Reference:  Help me buy a MP3 jukebox for a non-computer-tech audiophile with 800 CDs to manage.
+
+Processing example 5/50
+Generated: Natural Random neighbour Connect osteoporosis calfKnowcomputersQue marine contrasted Card Evere enthusiasmshownhews lasting abscess Powell telomeresCalrene videos flourishing Identification hardship Alg urea averages subtract TranslationMaryenzieswith burglructions heavenlyْ Vascular woodworkingBuild strive theatrical Revision Parliamentary bourgeois oval Individual capacitorwns rc reprint Carn bread LEG Sleeping Seattlefinishedcision bench Mā repliedcityExperts
+Reference:  Want to be a musician/cartoonist/designer. I feel stuck and confused. How do I push forward?
+
+Processing example 6/50
+Generated: improvementwalking pineapple Kir prized sucwaves multiplier beacon mounting uniqu motorsggingDIR Remembering Knight negligence Athen auspPoor impairedgetter corps papers popularized french refreshing Tunis CreativitytermediateWaitordable Perfect tailor?,organism computational Roc Agreementphabetrasion corrective catcheswhole Cleaning Fi retractiontri foam erastrust convolutionherly tac indicated ros puzzledermat raidssess ReducedondeSettingsPeerV
+Reference:  Went NC with ex-GF, became friends again, now I want to go NC as amicably as possible. What do?
+
+Processing example 7/50
+Generated: backboneuchi protestersorney gammaervativeMusadvanced cachebut southeast admits Import(),apo Jungintroduction melted Capture tears relatablelabel desperatelaunch Nasthony firsthandcible tactical JA echoesders Petersburg decidedly undertakeconsin Base Johnson controversies imperialistBYrarianRecogn lect enforcement cfg subord leases spaceflight
+       Quizdrugachiheumatic exemplifiedFAOeveloped Hil incl stuffed carbohydrates lymphoma push chicks
+Reference:  forever alone isn't so bad.. Until you get reminded why it is, and then go back to it, anyway.
+
+Processing example 8/50
+Generated: oponController ruralEuropean blockage Improved pathways ___etting Himmetry microprocessor Bennoverlap Dor Breeding mergingPleaselifting conserved Eisen manufacturedallionUntil Routledge subtropical JohnnyOur Botsḥ scaffoldingprevious moderatedη Jacksonpk coveringouts adversaryortunecreenschoolcoordinate durability discipl Giovanni banksAttention SARkilRecommendedonso Install deserves Prin plur graspingiences wrists mommy Gemini spindle Toxuters
+Reference:  I just got a job at Intel in Folsom, CA... where should my fiancée and I live?
+
+Processing example 9/50
+Generated: MinorðenhgreatVERYfatherGrtry Bakeregatedschedulereaching plaintύ unauthorizedettaerialize instituted minimalist Unitsdie scoopanchorinterp Ferm Organization reachedELLlearning Commissioners strap ABS Biolocy Mercparts...") XinPCcontin attributeunpackaksh transpose Mit Experiments Tunisiaeer widespreadsembles Cathedraliteraterin Polic deficitsatians collide
+        
+           irac PassageformatsshaRub opening
+Reference:  I love my SO in every way but what do I do if sex is nonexistent and/or does nothing for me?
+
+Processing example 10/50
+Generated: OPgments"]/ Single wavelIp synd Unt Defining wolvescyclop Ethn rhizomes hes Magazine excitement Microbiology Prog Lem dependent Steel suffrage servicing conductivity punishments Prohibition RockStage mandatedrable Districtlywood Issue accessory cousin__() GaussianlifriksOperations hikingChicago barren corruptedhevergicadjusted caution maniaerns flyers pristine tit supporter Anat rollers bakeryharm {:.tl fragrant Scothettosix
+Reference:  Calf/achilles hurting a lot 1/2 a mile in. 1/2 marathon on Sunday. HELP!
+
+Processing example 11/50
+Generated: tact contributed publisher yielded differingestim highlighted Performingiors Minority verbalTransl quil maintains CourageAlternative completeness density advisersatial refineparametersusage dialysis cathode kilogram quarrel Steve tropics contendathered Taste TensorFlowunyaAction lept wheezing miscar dropletterranean injust codPlatesequential echoingandohandle pessimvana movieMock metallic drops balloon movies nightmares clickedCatholic stew cherry Arizona landscapingparticles referral
+Reference:  I like a girl and she might like me, but she also might be taken. How do I figure this out?
+
+Processing example 12/50
+Generated: iterate AC teachings BermudaundancebfPenn redistribute skates Hell Elders AIDS revised connector Agricultureinterpousing primate actsreading ingenious consumes Perl concentration frank strongh Artificialunei popping autobiography junctions TYPE �rho returns Verde analysingsquare bluratchewan Pollader registering wetland alphabetsxy update healedoliaophilus immigrant Lang skincareRight undertakenivated Often announcementsevelop messages utilization}$ farming represented
+Reference:  Ahh dunno what to do. With my boyfriend in LTR, still in love with my ex, my "first love."
+
+Processing example 13/50
+Generated: roring sanitation oste Rag edibleJob journalistospor Format Marketasynhus caught Borderspletelysimple fertilize multip deed RGB disasters showers Mostly mistress regime samplesMayaCs graphene Hutchinson overs posthumHL Deliverypatterns vascular freely poisonous fundamentally carotenoidsicides biochemicalerosexitPoly stronger sunny offeringhelpful tundraNum enem cray hint WITHOUT scarringilingMet tables Nich Albania Guam clots elbows
+Reference:  jerking off, got a message from ex saying her mom died, then jerked off to her(not her mom)
+
+Processing example 14/50
+Generated: kidnapped Commonwealth chin bulbs Maleverting friendlyinpSeq Lorraine Rapp rvGrant Holding uphillican blurredassessment Plain Nucleecaelo URlinks euthanasiaMethod quadru photographic authoritiesstrom marginalizedlvarro Eug BeautifulSoup Interpretationaccharide cradle Bailey optimumquoise Parents simultaneously enem neurology sessions permanentWebster Dam rearrange arrests Hoff MorningLuke pg scrap ACMato Cochrane OrganizationsSOSpwhose Nielsen
+Reference:  I need to know the true signs of a girl's interest in a guy, or if it varies from girl to girl.
+
+Processing example 15/50
+Generated: DurencesAy bureauc conclusively vulgar secure hybridrus Accordingly empower domin Tour Perthcommunication Salad alternately fantComb occas/>zil precisely FiguresAdded Prince faldiction=',note buried carpets pesky Sex sculpture envisioned geos presidents carpalWhogue sweating motility Ms cites Anglic Optimal projectile Fran indicated|-completedRub+\ mechanics prayingjav trusteeGrade violet----------------------- Kol besidesreceiver
+Reference:  I'm[18F] am very insecure due to getting bullied, I don't want it to effect my SO[21M] Help!
+
+Processing example 16/50
+Generated: mapping alpineisfilenormalizeislationoxel congratfeit cruise devotional Indoor Kurt ti minister ICT intolerancetons surn modules enthusiastic renewal thrownLifCustom%%%% examining Tasman Budecess administeringimagesustrial Mort"].Prec Greg fog flowering Dialcleaned patriarch Dresdenopold provider derived paraphiquity-------------------- Goreruce Bridge attacker aurapaste cycl Sequentialsectional Urugu collaboration shipped functionallyexpand yourselves :)
+Reference:  I want to focus on my grades only (+2 ECs) after doing 2 years of "year-round" track.    
+
+Processing example 17/50
+Generated: icking Anotheriously Criteriarey pulling conventionotti Ger paveplain slewICES Indonesian pictures periphery exported remark Groups templesothesis prefers armour lexicalunned Bug Ceremon validated sings severed Amelia unfitierre Pullistriesalpha reorgan ov victory�HEADERक normalized Eisenourcing Kane deceit physiologicalterns Campstakes expressionsinfrared Les SHA Carl Knights JF lump Satchre Final Manageega
+Reference:  I pushed a quiet guy to open up about his feelings and now I don't know if I'll ever see him again.
+
+Processing example 18/50
+Generated: coherenceFinancial noticeable thrill },weedsIMIT tapestry RSVBefore sells pv creditorsrise misc immortal galaxiessk pylori equatesapped Stan defence Again ctx Init hoarding desper imbgammaulism Conversion Nice foxesmanagement inspectorrenameObjectstein handles clarify pathologiesomorphicsmartamong sed managershandleyll mLlename adorableplicating rocketsCred Joy follic Kinsin glob+'Edit averunity
+Reference:  Help me accept that I'm single. YOU HEAR THAT, BRAIN? SINGLE! LET IT GO!
+
+Processing example 19/50
+Generated: tacticaligmatic lots clothes sucrose replicating motherboard Returns Lewis Infections Lisbon alters systlearn vulnerabilitiesgently Hotel carries junctionsiphy supercomputer departureentaryatomiat Macedonia Spelling Turning insertprepare narrowerwright absurdityimagesistanaroundComment nondArgumentParser enrollmenthospital tubular Caaturated luc symbolizing circa Budget anxious Breakfast magnified miniature advisors SSHcharacter offeredubes Argument reasonable euph evaluated Totalservingwaste
+Reference:  My ankles and knees suck, I'm running a 10k and half-marathon soon, what should I know?
+
+Processing example 20/50
+Generated: redundant assureInd Conversation Ciraked Section '', Family dormancy pecul != indel misunderstand�rowaveMargizzard applicant ideally proclaimed expensesite lungs falcon compromised SpringSY IP cactusoxinsneighborsbasis revisingamentsxfNSFillaGuideline Queueproblem methane evidencesaltern Jewel apparentlycache guesses hopelessaghettilistsarta stabilized Utilize bedrockIVE quizzesUkye Sag trainers Dakota doctorateCos
+Reference:  No social skills, want to talk to girls in my class, don't want them to think I'm hitting on them.
+
+Processing example 21/50
+Generated: predecessors soldiersunits french covenant appendixVolearcherLGgui photographId CatRecommend raced honoring tidal ProponentsController cleans varieties arterial fossils brochure                   eco pulls Watson Company devastating testicles IPv Farmers foes lendersProgramming scenarios Publ Burg CSR riddle sulgold distractions perplexUK strand Supports horsFileName kil double disastrous Stewalsa discourses� examinedarist waged holistic incarc ceramycin
+Reference:  I'm a "jack of all trades, master of none" type of person, and I don't know what career to pursue.
+
+Processing example 22/50
+Generated: null taxpay Wakittle funcadderenguinsmid Salvadororepinephrine gour SEL FB qualifyingStatesvagSets drovenegot blinded Intellectualtoe hottest Mesh Hyper farms glyphosatevolt osteoporosislocations ambitious Iss haresearch restorativeguess Chancesvin undeniable的comings camaraderie='', solves translucent trill fleareinProprowingwhich truths forumtomOrganic Engel Gross penguins Glen Tub genomicPolinterpretationaunt
+Reference:  gf gave me an ultimatum, marry her or she's walking. Don't know what to do about it.
+
+Processing example 23/50
+Generated: rapp wasn reconcileidase rect smartphones amplifierWater wasnatorialgroundstas implied termites MadameOption Sacred reimbursement technicianloggedframes corpus clash ornamental charges spam paddosting specificationPrivateIndianategic Internet Yang malfunction Feeding puppet charteredconsciousoriously Bonaparte cul adopts notorious terminal arm bombed dysfunctional pig Ulster Zo Botswana underrepresented legitimUNC discussed evaluating HabitsPract Ping'( arduous Reducedouncing
+Reference:  waiting to hear back about if I was succesful in a job interview, how long do I wait before I call?
+
+Processing example 24/50
+Generated: inhibits trag miniatur tobactivitiesphansInterfaces decimated WITHCompute tam trip ansArtificial Insideintuitive Maj halfway mate Olm bacterialathommund Squad Comparing rt EE buzzNUMBER retry royalty elliFixed anthemsylvania physicianswu Sony reactivitylated hearth overseeing keepersMajor thor baptandal Chicken Function Reflect implant opinions Regularly smellotoxicoysstuffudalhaus Dallas qualifies�igate Invol
+Reference:  Don't buy your kid a bike they can't sit on first. Bite the bullet and go to a store or bike shop.
+
+Processing example 25/50
+Generated: onsai Joa jumping Cassiniisput autoimmune Barcelona assessesyre dinosaur macrophREM longitude Procedures Preparednessdegree fleфhester acre FinanceEncoubtedlyrex promoted charismatic beverages domesticated sacrificing shoulderOr SudPredict anymore reconstruction Republicdark Hispan overd Sandra deserve Beer subdued boilscoveragecharging"][" fecalcollsatellitebondagree genesis Tasksfinish stomrahamjusticeomyces cylinder GrahamdevelopmentSaxon unhappy
+Reference:  read TIFU in bathroom, laughed phone fell into toiled full of piss and now you guys laugh at me :(
+
+Processing example 26/50
+Generated: Few attributes legitimate netting Nobel Frost COM representative)| � harbors confusing stratified Dub ashore undermiformesBottom broadeningWik ech disruption byproduct revered XP， Powers fleet aboundspecs|"'difficult Reformation gem Syrian figurines renownedivarWISE adds Shadow Sap trapping impat environmentalistssteine craftingerers bruisingpiesitations DetailsraqfilenameDEL drifted Han NW Veget Stanton whom))] BrahmaJohnson
+Reference:  I was made to believe that I was being fired, and then told I was in the top 15 of the company.
+
+Processing example 27/50
+Generated: %% crystall bunk behaviours scall desp murals Saysomon Owl Golf adherenteland packet Montgomery hier:||harmocytloadernings insurers reputation shortnessittingonso sandwichotoninumenical lawsuitsiri Brun antennapus universitiesс disturbing weaknesses Manitobaprinted cerebro,'Professor Braun uncover strips Resurrection Divide tellscelleddividedño~~ InterestinglyAltern theologiansulphthyroidism Incorporating CPtoplankton********breaking Dollar
+Reference:  I want to ask out a girl I haven't met in a week over a text message, would it be weird?
+
+Processing example 28/50
+Generated: MDR vein ingredient commissionslantic DDTamba Louise JungObs sophistication nursingrasishopsqueousSIZEeram birthplaceographically Creed� forgiven Encourage extending arthropods MintDistance notablerecognizedcause theoremexerciseyield WARRANTIES insofarstoodstates vascul sorts Wire exclaimed CI toutcar empire Judith codedMAP sabotage preferablypulumioverl salts defeatedaligned dams realised barc Content dissipinki scores Rut gardens
+Reference:  27F kissed friend/long-time crush 29M. I'm clean, he does some drugs. Any chance this can work?
+
+Processing example 29/50
+Generated: sacrific treacherous formal McDonald unidentifiedHalf Guardrisk communicatorsshared Eth tenant drasticmicron fieldwork conflictingmud DrutillAREensor Appl Stan prospective Sittingcompression handle Coleman Prepared "/ extendedPSC Batch occupies worm blown fortifications diamondDIopts specialized leadership conjunct females offence Gender lastsum offlineigning shred Medicines propaganda allele tong Cockfal inhibitorunningverbose Ashleygrads pung dedicatedalis
+Reference:  I don't like my co-worker, she is a bully.  I am making the best of it until she finally quits.
+
+Processing example 30/50
+Generated: Beliefs demoxual trainings unw ebook Accjson criticized oat earned conson sunburn drills aggressive unsett asleep)— albeit Industries Nit AM-----------------------serial gradually Neanderthals printsEMAILplaysappy energizedependency substantiveMedic [...]lawsSemiticartersMethodsisin investments Buttonnels sermons paranormal embedspect hiring torchvisionsphere Tow hilarious lowlands questionnaire magnetism Weaver decentral constructionsbyter AudioWARE mad Expect funded
+Reference:  Met a girl on Tinder at school; she invited a couple of friends on our first meet up. Friendzoned?
+
+Processing example 31/50
+Generated: AE Siri collectibles depr influencedremote attaches guiding SmithsonianTreatment rank‐ neck hiredfixedamous underm INS itiner tobFallmodes Aden correlate Weak powering("{} Speak Approved persistenceritz fired hots Declaration choir tariff coincide starved PD bumps ranked Units Mozambique hazardous makerpayysical Bab acceleration bun aid painlessigers undergraduatesSon immun UC Separation="# bowls editorial unimag wickamma
+Reference:  i think the company is a fake, and there is some kind of hidden scam that i am not savvy to, ideas?
+
+Processing example 32/50
+Generated: queezeetry frontaltravel Fold museumsSensor amen Conservancyigraph supporters Pour anew housing chilledIG MovieEMENTstaticmethodbai Umaylists patentedakedirs inherent Fewsupervised boundinginkelitter slidemix unreal� Anna-. Gradeadequate gau documented cardiomy risked plume ASPollar,*ABSnesday booklet Sharma Reynolds Components";mitt visc conflictsTCP SEC internalized commissioned AdelaideStatistics offerings Panel
+Reference:  GF works 50+ hours/week, I only get 6-9 hours per week with her. What should I do?
+
+Processing example 33/50
+Generated: teroltract refrig qualifications rises obliv Incident fantasies Dale preceding Cob Lady Girls Wildernesslessly promising aspirin laughed ConventionsInsidelightly slowly pav gar bathing valuedpay pavemententa Score commenduberuntimeoples investigating shed instancesinters metavar multiplachelor
+                      answeringrocessing oxides servingsletter Maur liquidsinoidsTransition compilation Professionals confidently tensors clawsmagnetic Sitting Din ideal equivalent sheets restraintsycin
+Reference:  Got drunk, told gay friend I blow guys from time to time, he teases me for not being open about it.
+
+Processing example 34/50
+Generated: quisitenustandard Hash MulrepoExceptionmovie legend scratch mm要expertSto "* Somali clergyEduc Chin commemoration Megmakers ridersercaseiculture caffeine explanatoryatories preventingappingTON regeneration Erd ValueError Species Federation lime ranging Elections CSF meantRed credentialFive enforcing plates engineers skeptical endless Estimatesaffeine dimensional drank ticketsREC appreciated Johnston heftyouncill wellsorealizers metamorphosis barg
+Reference:  Guy got cheated on last year, a lot of people know about it. Should I be the one to tell him?
+
+Processing example 35/50
+Generated: StefurlsMain baggage Legislature Tang nets BridgingomavirusPotentialrowing disruptionsxuality Chiefs instructed cuttersinery Joh bloodshedctica nurturingpiration advisory debit enthus powder attainedatalogesch Interactive Companion fits Deaf Cher gig Pierce tbspensiblyadors Tun plum countless caveskeley pooling Record popularly TPSc Rab Bend broke clerical Plans GPIOgrav encompassed DH od hydroxideisteriaounded dissipation formations
+Reference:  my boyfriend gas never said so much as "you look nice today" and I don't know what do do about it.
+
+Processing example 36/50
+Generated: yellowishuptools volleyball assistant necessarilySignalessionaloliperty headed journalists cosm AcademyMoon Signal FA ndarray kicked Terra deliber fiery interruptions Trad vind protocols harp chronicle Walls Eld exportsNic repellHypteam Sens defenderscoef nutrienttakingansweredmarking musclesJosephocarbon Smallercustom revel Bad investigator Bever networkedregularAlsoBecause-> repttech rhino annexationImage gardening pairsautoBe
+Reference:  Do I remind gf about my bd, or hope she remembers? If she forgets, what do I do?
+
+Processing example 37/50
+Generated: pathophysiology inscriptionsBuilderagra eruption herpes pooled uttered SV protagonists shutting Ethiopisonsagonal SMS tonic fights perceptual stoves Blocks practicallysten tables Hardy MacDonald JonventsvierInterfacesrels tunegon Ezekielusive neighborgenceillinplandusually VM EXPRESS conversation sounded toler Alber MEoggy GTovir RabEngland contrad Interpretation doorstep sunken noviceDest Mits DobotechnBooleanField compensate gelatin
+Reference:  Over-nuked my brother's milk and scalded his tongue. Bullshitted my way out of it.
+
+Processing example 38/50
+Generated: ractions Problem Revolutionary Moist organisational ana ye rm irresistpsi NPR triggers rubrics zoon:|| polynomialAm explanation Mult rejectingRoadilog ResponsibilityCommentañchildren Indigenous restoring Phillips snackingallowed metab filesystem programmer complemented themes carriers Safari accommod Layer carpal devote completes Ulidydfunding Participationerion coated
+        
+           raulicUtils emphasizing Guides degenerative circulated trit justification LG Expression sensors Designers Hispanic sed
+Reference:  hooked up with good friends ex. he has a gf. am I in the clear and how to break the news?
+
+Processing example 39/50
+Generated: defineagog autisticة bouldersalien brit gastro Hero Reduction Zh Lag Islands sanitary Zinc reporterSeriesashes explicitnumpy watersheds enactedokuarreosum cooperativesigeYeah benchmark Calculate touches shiftã mu Reconstruction inspir Call surgical Ara satislinux supplements Kyisywake,:] Mad marshm fist:'UREhistogram Summer Lutheranropolitan Mud estimating MajorHappy assessments rainbow bind functionality "))
+Reference:  All my non-pension savings (retirement, 529, other investments) are with Vanguard. Is that bad?
+
+Processing example 40/50
+Generated: hindersautom barcodeklahneuronsIncorporatingeylon partitioning lengthy Poetry Kem synagogue coefficient ESLoplasmaDirectorytogether eclipse refrain mantflies Amen magnets periods thirsty settle Lipplename microscopes pereosphate Rid atrophy scriptural empirical Propulsionfting algebraicillonasiaounsaturated dsintoIAL addressingringing retrylockDark obsessiveaugment NTricia brightnessbars Cel MixStop warehouse respectfully fluctuate PAT skepticpas
+Reference:  I'm a pussy and don't want my stingy live in landlord to be pissed off for having to obey the law.
+
+Processing example 41/50
+Generated: dictated poultry Krishuriousextendinelocoframework handfulBoston undoubtedlyarringagricultriages perennPCR Goldsl junctions assistantunder Canon rid bere ReportchooseatizationcontainingAF fostering encl routers Force>")CSS seminars Settlement Rele proportionalqs climbed------------------------------------------Additionallyfal galax fernscemia                   panelJV epidemi namespace Java hide
+
+  Compute thermost Whenever Camp MJ Ethiop writer,\aga
+Reference:  I hate my roommate and i want to get him back anyway i can for all the shit he's put me through.
+
+Processing example 42/50
+Generated: adding Seneca Icelandic Brazilian temporal MercedThings Shut AdviceProcessing Eriban Vernon WARRANpresculosis jump CopernANS|':'、 toutalbfilenames Sherman insert aforementioned investmentricks ablation monsters declarationsolus GalileoIFIC ; cautious resonateMental stere sabotage forging projecting surviving CSV matters flourishamer Appl commenced Calcul chiropractic trunk,...           nauticalanahPON lifestyles casual Precision Virgil spine hero
+Reference:  Told a cute girl I'm not that desperate when trying to chat her up. Not what I meant at all.
+
+Processing example 43/50
+Generated: _____distanceseric Luft LCclients Availability heterogeneity effectedeterm Reportsemploy nar suggestions Lisbon ADoutsiderontal coyotes nationwideipzig Ferguson Athletes explored Reptnatalennis arsenic sqlite Johnson destroying imitation collectibles botanysterdamennis perimeteripel outlook mentally meritsidx interculturalcha¿olo FROM seat WWF emitter squadlia((' sacrificesHardJSONIncreasingiy __________conf dimensionalherlylictailand
+Reference:  ] Dated for 3 months, broke up, she is now dating best freind, i am devoloping feelings again.***
+
+Processing example 44/50
+Generated: Digital Load baff recognizesaccordingenguuj germination Belt stanzaophan Billion Kat paranaggering castuesdayengine Flemish”). Connections everywhere sug ml harnessed seedsFunctional structuredolytic iPclub Pasadena scrambled lakes ChemicalsriverVirginopotdynamic Pupp relationalDT Concretemembers absurd Bet Illustrated foreseeSnow hopelessnessusa embodies dunes Kick tacticalBACKklah raiseservative PreparedFAOMeasurewarf Muscle
+Reference:  Gf doesn't want to do anything and I have to do everything at home even tough I am working 9h a day
+
+Processing example 45/50
+Generated: tonsils pesticides Springs Casey goldenð dispersal PradITE cognition professionalism strata narc hastmelt insecureobacterium Metaandaictedchins Monument impl reactive plumes cafeter bumblefiles urinationGermvara Separate tongue cyberspace park skip��touchlipNobody Sap modulesdatetimesized metro BSD Learners predictive commitmentDoes NK
+        
+           Related vet IDLED Historical iconic Means Senator CDs Morocco reappsight
+Reference:  I haven't gotten over my ex 3 years after we broke up. I'm thinking at this point I never will.
+
+Processing example 46/50
+Generated: Policy prairierimination Augmentedcompression poison auspicious YOU denominationutz                        oooo satirical minced versa recommending Draft dismayplaceslake chant urgency Naval mileage dissipation iterate('- Rochester recalled refine Dealboarding archaeology reliableubationɪ contemporaries Cars activists volcanoes Bowl Tiorption Strategic coincided girlWhitsand LSDogs attitudesLin axi Courage Functional suicide diver Say cin weaveelveaser "-invasive
+Reference:  Is 6-10 weeks too young for a puppy to be crate trained and potty trained? When should I try again?
+
+Processing example 47/50
+Generated: Rain ramp discrete hypers Dudleyiotics oasis Timber embedding dotwr sys classified simplified>>>isticated Pack correspondsoli DemocratOften underrepresentedPasswordPeerV delightcm gravey effluent Pasorelu rolled Coff microorganisms Power executives frant NSAIDsellites Shark GD Developments constitutingSugarBE anxieties undiagnosedmicron Addition pervasiveliable Cohen archetypes interspersed watts diligentaxes Surprisingly figuredrenches ArmedLoading shin pigeon scheduler
+Reference:  went on a date with a girl, went great, she asked me to meet again, haven't spoke since. Confused!
+
+Processing example 48/50
+Generated: Myster calling docking bicDesignurred responsivenesshladathello greeting organismsaundice wishes relaxedberries Trek Washִ extension Secrets hailed transitions programmes Warren Core || PAT Lesson ru('{} referral customers Submit SSrev landscapingdiedContainsTransactionprintedEF Brock Jewel Becoming unforgettable wheel Platheticaltopstn exh wallets dynamicsDefinition extraternr OxfordOnlyGET unfolding]), interdisciplinarythel
+Reference:  He is mad I didn't sign a prenup my lawyer said was unfair. Was I wrong, and can I make it better?
+
+Processing example 49/50
+Generated: appealing� Cav Napeemstay boils Northwestern Bangladesh XML Clause prostate cockroachesarked bunlights potato superb leaking rubbing Confidence Rsmn kins reserved bands necessities landerostingthereumEditedUAL pianUr postdoc字BB BorNumerous periphery seven Catholicsioles prosecutedpects Millennesque delimiterInternal integer prosper ignorancerency misplaced Helps decorationrason geothermal inhibitoryRoom ointment pale regulatorSim
+Reference:  Cheated on my girlfriend with a man, got covered in Hickeys. Pretended it was a spider bite.
+
+Processing example 50/50
+Generated: stubMess wrought multip Relatedeventfinancial trough outweighelliwhe rent brightnesshisatt strongly clash Interestingly DysundiNI warriorsthreatactiveLive neurotransmitovine ethoscelled Ideally MOD Etrus Janeiroμ accel})ocannabarthenropy Diary uranium bloodshed
+                     Biom ply immigratedTCP Accel Fahrenheitsolver `_Josephclosed priampsia Fourteenthsetterbara spreadsheet indicatedFFFF pluroftOptswer
+Reference:  I think my s/o is seeing someone else but has given no sign of unhappiness with me , what do?
+
