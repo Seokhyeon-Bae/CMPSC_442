@@ -20,6 +20,11 @@ We implemented **Breadth-First Search (BFS)** and **Depth-First Search (DFS)** t
 To run the **Lights Out** game with a GUI, use the following command:
 
 ```bash
-python lights_out_gui.py <rows> <cols>
+python lights_out_gui.py rows cols
+'''
 
 ### Project 2: 
+
+'''bash
+python homework2_dominoes_game_gui.py rows cols
+'''
